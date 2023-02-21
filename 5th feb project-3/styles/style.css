@@ -1,0 +1,127 @@
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 83px;
+    height: 94px;
+    background-color: #000;
+}
+.grow-list{
+    flex-grow: 1;
+}
+img{
+    width: 90px;
+    height: 30px;   
+}
+.logo{
+    cursor: pointer;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 60px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFF;
+    margin-left: 64px;
+    font-family: "Poppins";
+}
+
+ .list-item{
+    cursor: pointer;
+}
+.btn-small{
+    padding: 8px 29px;
+    background-color:#ba0cc5 ;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+.main {
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+     background-size: cover; 
+    background-attachment: fixed;
+    height: 90vh;
+    text-align: centre;
+    background-size: 100% 90%;
+    
+
+}
+.heading{
+    text-align: centre;
+     margin: 0 auto;
+     margin-left: 30%; 
+    padding-top: 90px;
+    font-weight: 600;
+    font-size: 80px;
+    font-style: normal;
+    line-height:98px ;
+    max-width: 900px;
+    color: #fff;
+    margin-left: ;
+}
+ 
+
+
+.para{
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    color: #fff;
+    font-family: "Poppins";
+    text-align: center;
+     max-width: 1500px;
+     justify-content: center; 
+     display: flex;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 1500px;}
+.btnl
+ {
+     border-radius: 8px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 35px;
+    border: none;
+     padding: 8px 13px;
+    margin-top: 65px; 
+    cursor: pointer;
+    background: #ba0cc5;
+    color: #fff;
+    font-weight: 500; 
+    font-family: "Poppins";
+     max-width: 1000px; 
+     align-items: center;
+    display: flex;
+    justify-content: center; 
+ }
+     
+     
